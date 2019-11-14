@@ -9,6 +9,7 @@
 $heading1-font-family: Playfair Display;
 $heading-color: #9c757b;
 $text-hover: #d6b6bb;
+$link-font: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 
 // Färger
 $background-color:#f8eeee;
@@ -50,7 +51,7 @@ nav {
       display: block;
       text-decoration: none;
       padding-right: 20px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-family: $link-font;
       color: $heading-color;
     }
 
@@ -61,4 +62,47 @@ nav {
     a:active {
         text-decoration: underline;
     }
+  }
+
+  // Columns
+
+  .col {
+    float: left;
+  }
+
+  // KOLLA
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .two {
+    width: 50%;
+  }
+
+  .three {
+    width: 33.33%;
+  }
+
+  .four {
+    width: 25%;
+  }
+
+  .five {
+    width: 20%;
+  }
+
+  // Footer
+
+  footer {
+      ul {
+          
+        list-style-type: none;
+
+          li {
+              font-family: $link-font;
+              color: $heading-color;
+          }
+      }
   }
