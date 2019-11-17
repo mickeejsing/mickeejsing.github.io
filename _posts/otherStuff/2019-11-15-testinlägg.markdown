@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Testinlägg"
-date:   2019-11-15 05:13:21 -0600
 categories: Blandat
 ---
 

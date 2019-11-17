@@ -34,6 +34,14 @@ h2 {
   padding: $padding-text;
 }
 
+h3 {
+  font-family: $heading1-font-family;
+  color: $heading-color;
+  line-height: 100%;
+  padding: $padding-text;
+  font-size: 24px;
+}
+
 p {
   font-family: $text-font-family;
   color: $text-color;
@@ -167,4 +175,34 @@ nav {
     -webkit-filter: grayscale(50%); // Safari
     filter: grayscale(50%);
     padding: 10px;
+  }
+
+  //Blogg
+
+  article {
+    width: 25%;
+    float: left;
+  }
+
+  .sneakPeak {
+    font-size: 12px;
+  }
+
+  h4 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+      font-family: $heading1-font-family;
+      color: $heading-color;
+      line-height: 100%;
+    }
+  }
+
+  .date {
+    font-size: 12px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
   }
