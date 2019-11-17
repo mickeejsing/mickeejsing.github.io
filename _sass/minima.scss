@@ -47,6 +47,13 @@ p {
   font-style: italic;
 }
 
+.limit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
 // Body
 
 #wrapper {
