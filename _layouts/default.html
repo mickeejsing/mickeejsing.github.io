@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "sv" }}">
 
   {%- include head.html -%}
 
@@ -8,8 +8,35 @@
       <div id="wrapper">
         {%- include header.html -%}
         {%- include menu.html -%}
-        
-        {{ content }}
+
+        <div class="row space"></div>
+
+        <div class="row">
+          <div class="col three">
+            <a class="imageLink" href="/about">
+              <div class="background bgOne">
+                <h2>Om mig</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="col three">
+            <a class="imageLink" href="/blog">
+              <div class="background bgTwo">
+                <h2>Blogg</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="col three">
+            <a class="imageLink" href="/contact">
+              <div class="background bgThree">
+                <h2>Kontakt</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row space"></div>
       </div>
     </main>
 

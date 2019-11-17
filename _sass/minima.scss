@@ -206,3 +206,67 @@ nav {
     margin: 0px 0px 0px 10px;
     padding: 0px;
   }
+
+  // Formulär
+
+  input[type=text], input[type=submit], textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px solid $heading-color;
+    background-color: #ffffff;
+    font-family: $text-font-family;
+    margin-top: 10px;
+    color: $heading-color;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  .contact {
+    font-family: $text-font-family;
+    color: $heading-color;
+    padding: 0px 0px 0px 10px;
+  }
+
+  // Startsida
+
+  .background {
+    height: 250px;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); // Safari
+    filter: grayscale(100%);
+
+    h2 {
+      color: white;
+      text-align: center;
+      font-family: $heading1-font-family;
+      font-weight: 100;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      line-height: 250px;
+    }
+
+    h2:hover {
+      color: rgba($color: white, $alpha: 0.5)
+    }
+  }
+
+  .imageLink {
+    text-decoration: none;
+  }
+  .bgOne {
+    background-image: url("../images/jagoblommor.jpg");
+  }
+
+  .bgTwo {
+    background-image: url("../images/pen.jpg");
+  }
+
+  .bgThree {
+    background-image: url("../images/tel.jpg");
+  }

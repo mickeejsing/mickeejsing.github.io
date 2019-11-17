@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "sv" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <main>
+      <div id="wrapper">
+        {%- include header.html -%}
+        {%- include menu.html -%}
+        
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
