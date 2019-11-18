@@ -164,6 +164,11 @@ nav {
               font-size: 14px;
               line-height: 20px;
           }
+
+          a {
+            color: $heading-color;
+            text-decoration: none;
+          }
       }
 
       h4 {
@@ -242,6 +247,9 @@ nav {
     font-family: $text-font-family;
     color: $heading-color;
     padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0px;
   }
 
   // Startsida
