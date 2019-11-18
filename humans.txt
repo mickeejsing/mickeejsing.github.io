@@ -1,0 +1,15 @@
+/* AUTHOR */
+	Student: Mikael Eriksson
+	Contact: mickeejsing [at] gmail.com
+	From: Sweden, Kalmar
+
+/* THANKS */
+
+	(First) Unspash.com
+	Twitter: @unsplash
+
+/* SITE */
+	Last update:2019/11/18
+	Language: Swedish
+	Doctype:HTML5
+	IDE: Visual Studio Code, Notepad++, Photoshop
