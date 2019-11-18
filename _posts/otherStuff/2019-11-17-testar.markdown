@@ -3,6 +3,8 @@ layout: post
 title:  "Testar igen"
 categories: Blandat
 comments: true
+type: image
+image: jagoblommor.jpg
 ---
 
 Idag är det söndag. Det har varit en härlig helg. Har träffat några kompisar från Emmaboda. Vi var ute och kollade på ett ödehus i fredags. Väldigt spännande. Igår kollade jag och min flickvän på dokumentärer med Louis Theroux som programmledare. Han är fantastisk på att intervjua. Han ställer väldigt bra frågor, även i de svåraste situationer. Vi ska kolla vidare på hans dokumentärer senare ikväll. Dem finns att se gratis på Svt Play. 
