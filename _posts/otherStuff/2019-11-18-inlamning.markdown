@@ -7,6 +7,8 @@ type: image
 image: jagoblommor.jpg
 ---
 
+Vad roligt att du har hittat till min webbplats. Nu är jag klar med uppgiften och ska därför svara på några frågor. Kommentera gärna i kommentarsfältet ifall du har några frågor.
+
 **What do you think of pre-compiling your CSS?**
 
 Jag har nu byggt en webbplats med hjälp av SASS. Jag tycker att det har varit väldigt smidigt att använda SASS, men ovant. Jag har bland annat använt mig av nesting, vilket har varit effektivt för att påverka flera element samtidigt. Jag har också använt mig av varabler. Det har varit väldigt effektivt för att återanvända t.ex. vanligt förekommande typsnitt, färger osv. Ytterligare tekniker jag har testat är mixins och operatorer.
