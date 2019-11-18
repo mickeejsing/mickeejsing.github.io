@@ -1,0 +1,31 @@
+{% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+{% else %}
+    <meta property="og:title" content="{{ layout.title }}" />
+{% endif %}
+
+{% if page.type %}
+    <meta property="og:type" content="{{ page.type }}" />
+{% else %}
+    <meta property="og:type" content="{{ layout.type }}" />
+{% endif %}
+
+{% if page.url %}
+    <meta property="og:url" content="{{ page.url }}" />
+{% else %}
+    <meta property="og:url" content="{{ layout.url }}" />
+{% endif %}
+
+{% if page.image %}
+    <meta property="og:image" content="{{ site.url }}images/{{ page.image }}" />
+{% else %}
+    <meta property="og:image" content="{{ site.url }}images/{{ layout.image }}" />
+{% endif %}
+
+{% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">
+{% else %}
+    <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+
+
