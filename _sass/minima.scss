@@ -256,8 +256,8 @@ nav {
   .background {
     height: 250px;
     background-size: cover;
-    -webkit-filter: grayscale(100%); // Safari
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(50%); // Safari
+    filter: grayscale(50%);
 
     h2 {
       color: white;
