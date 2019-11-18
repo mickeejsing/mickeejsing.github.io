@@ -37,7 +37,7 @@ Det är en fil som förklarar vilka som har skapat sidan och vilka som har utgjo
 
 **How did you implements comments to blog posts?**
 
-Jag har använt mig av Disqus. 
+Jag har använt mig av Disqus. Jag började med att skapa ett konto på Disqus, för att sedan registrera en sajt. I post.html har jag en if-sats som kontrollerar ifall inlägget använder sig av kommentarer, vilket finns beskivet i inläggets Front Matter (comments : true). I sådana fall skall comments.html läsas in, vilket genererar ett kommentarsfält. 
 
 **What is Open Graph and how do you make use of it?**
 
